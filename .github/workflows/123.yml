@@ -2,7 +2,7 @@ name: Python CI
 
 on:
   push:
-  branchs: ["main"]
+  branches: ["main"]
 
 jobs:
   test-code:
@@ -20,4 +20,4 @@ jobs:
   
   # step4
   - name: Run Unit Tests
-  run: python -m unittest test_find_max.py
+    run: python -m unittest test_find_max.py
